@@ -1,6 +1,5 @@
-number1 = 70
-number2 = 80
-answer = input("Do you want to add? (Y/N) ")
-if answer == "Y":
-    result = number1 + number2
-    print(result)
+total = 100
+for i in range(10):
+    e = int(input('enter a number:'))
+    total = total - e
+print(total)
